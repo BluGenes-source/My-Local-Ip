@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="ZDODYf" name="MyLocalIp" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="1" jucerFormatVersion="1">
+  <MAINGROUP id="wCgtcX" name="MyLocalIp">
+    <GROUP id="{08950C07-D272-E5F6-0B04-71038DF9051C}" name="Source">
+      <FILE id="VAPLDQ" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="DuIFTL" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="zWvHzN" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+    <FILE id="he41xu" name="IP_ICON.PNG" compile="0" resource="1" file="icons/IP_ICON.PNG"/>
+    <FILE id="OWPTrW" name="IP_ICON_64.PNG" compile="0" resource="1" file="icons/IP_ICON_64.PNG"/>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <VS2022 targetFolder="Builds/VisualStudio2022" bigIcon="he41xu" smallIcon="OWPTrW">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="MyLocalIp"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="MyLocalIp"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../../JUCE GIT/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../../JUCE GIT/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../../JUCE GIT/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../../JUCE GIT/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../../JUCE GIT/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../../JUCE GIT/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+</JUCERPROJECT>
